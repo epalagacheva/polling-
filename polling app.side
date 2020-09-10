@@ -1,0 +1,67 @@
+{
+  "id": "10388950-69b9-4366-b7b3-cb1973296195",
+  "version": "2.0",
+  "name": "polling app",
+  "url": "http://poll-app7-20200409.softacad.bg/",
+  "tests": [{
+    "id": "ec7a78d9-674a-47d4-8056-5f19cc314bf5",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "b48de2e4-fff3-4565-a32b-a0d56eec51fd",
+    "name": "login positive",
+    "commands": [{
+      "id": "4dafa0f4-cb3c-4d62-82b6-415f2c3f5b8e",
+      "comment": "",
+      "command": "open",
+      "target": "/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3971e1ae-4564-4eb1-8f81-635fe6f5f845",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=(//input)[1]",
+      "targets": [],
+      "value": "123456"
+    }, {
+      "id": "b51cbc17-5cfb-4701-96ba-4839b7e94bb8",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=(//input)[2]",
+      "targets": [],
+      "value": "123456"
+    }, {
+      "id": "0b663da2-c433-439e-9d6a-e54d9516226e",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "100756a3-e3a4-45db-afe3-14327e0f1cb2",
+      "comment": "",
+      "command": "click",
+      "target": "css-oi.person",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5772488c-0729-4877-8749-e1254478ae25",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=username",
+      "targets": [],
+      "value": "@normalUser1"
+    }]
+  }],
+  "suites": [{
+    "id": "837aa340-b637-4832-aae9-e6f2d422e5ad",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ec7a78d9-674a-47d4-8056-5f19cc314bf5"]
+  }],
+  "urls": ["http://poll-app7-20200409.softacad.bg/login", "http://poll-app7-20200409.softacad.bg/"],
+  "plugins": []
+}

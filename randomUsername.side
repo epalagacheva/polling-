@@ -1,0 +1,70 @@
+{
+  "id": "fa939010-a5fa-421f-879f-ac4c234f18c3",
+  "version": "2.0",
+  "name": "randomUsername",
+  "url": "http://poll-app7-20200409.softacad.bg/polls",
+  "tests": [{
+    "id": "49ba11fe-df02-4100-ac37-9fc5597758ba",
+    "name": "Untitled",
+    "commands": [{
+      "id": "ef44c0ca-5da8-4b71-ac46-ffb0be8eb597",
+      "comment": "",
+      "command": "open",
+      "target": "/signup",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2dfc5b4c-01ba-4a0b-b3e6-322ba1c6bf92",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return\"user_\" + Math.floor(Math.random()*1000)",
+      "targets": [],
+      "value": "gen_username"
+    }, {
+      "id": "16fecac5-f74e-4d04-9fa0-c05ca2c12a23",
+      "comment": "",
+      "command": "type",
+      "target": "id=full-name",
+      "targets": [],
+      "value": "ichwill"
+    }, {
+      "id": "6c80d031-d794-42ee-863c-c4d70b601e42",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [],
+      "value": "${gen_username}"
+    }, {
+      "id": "01d48b8c-c0b7-4862-a812-7b5445682911",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [],
+      "value": "poshta}@test.org"
+    }, {
+      "id": "4af3a150-d2f1-4b57-8a23-37851ad65be5",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [],
+      "value": "123456"
+    }, {
+      "id": "8faced66-6a26-4d7e-8e6e-b23b0ea0e963",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cf9c6d16-5a92-478d-a3a1-3fdbc3a11b58",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["49ba11fe-df02-4100-ac37-9fc5597758ba"]
+  }],
+  "urls": ["http://poll-app7-20200409.softacad.bg/polls"],
+  "plugins": []
+}

@@ -1,0 +1,126 @@
+{
+  "id": "0040564a-1539-489a-b719-ced266ffa58e",
+  "version": "2.0",
+  "name": "witcherQuestion",
+  "url": "http://poll-app7-20200409.softacad.bg/polls",
+  "tests": [{
+    "id": "be88b85d-4115-42b8-a880-3b93feaf3d0e",
+    "name": "Untitled",
+    "commands": [{
+      "id": "3c39c358-db0c-44cb-816f-317d86b970db",
+      "comment": "",
+      "command": "open",
+      "target": "/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0ac2488-7568-449c-a51d-0fc6d5eb6c3a",
+      "comment": "",
+      "command": "type",
+      "target": "id=usernameOrEmail",
+      "targets": [],
+      "value": "tg5admin"
+    }, {
+      "id": "83b4a3ec-050e-41b4-8085-d140049cafab",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [],
+      "value": "123456"
+    }, {
+      "id": "4617e540-65d1-4d06-be18-542d83b555c1",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6350ab72-e421-4b22-afe0-a9a333b091c0",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//span[contains(@class,'oi-list-rich')])[2]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d5e16844-db0d-4497-a7d7-fdb91b3c3771",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return Math.random().toString(36).substring(7)",
+      "targets": [],
+      "value": "randomQuestion"
+    }, {
+      "id": "cec6dbf5-9b9e-4ca8-9358-a0d8d5ef9c91",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return Math.random().toString(36).substring(7)",
+      "targets": [],
+      "value": "randomChoice1"
+    }, {
+      "id": "745560c2-a69c-4b11-9410-384d8973e189",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return Math.random().toString(36).substring(7)",
+      "targets": [],
+      "value": "randomChoice2"
+    }, {
+      "id": "68e96d94-d159-485a-898c-42e73a6a2bd5",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//span[contains(@class,'oi-plus')])",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1d0a504-3909-41ed-9027-ab30a44e969b",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return Math.random().toString(36).substring(7)",
+      "targets": [],
+      "value": "randomChoice3"
+    }, {
+      "id": "2213a9a5-d925-469e-883e-555d44093537",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//textarea",
+      "targets": [],
+      "value": "What is the name of the main character of \"The Witcher\"?"
+    }, {
+      "id": "b2697730-2b2e-48c1-bfad-0c8b295ce90e",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=(//input)[1]",
+      "targets": [],
+      "value": "Gerald of Rivia"
+    }, {
+      "id": "ddd5a516-2826-48c1-999f-8a95d1ea75a3",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=(//input)[2]",
+      "targets": [],
+      "value": "Don Geraldo de la Rivia"
+    }, {
+      "id": "762a8f3a-9e8e-4d42-8c56-ab73335e2c75",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=(//input)[3]",
+      "targets": [],
+      "value": "Gero"
+    }, {
+      "id": "e9bfae52-cd8c-43de-ab34-9be1ba2000a7",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//button)[3]",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ce0ee652-ef27-4e3f-9881-eb80ab91d03b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["be88b85d-4115-42b8-a880-3b93feaf3d0e"]
+  }],
+  "urls": ["http://poll-app7-20200409.softacad.bg/polls"],
+  "plugins": []
+}

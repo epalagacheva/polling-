@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#SWTES0707-34] [TG-5] [Emilia] The message for wrong password and username  is incorrect .</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('http://jira.softacad.bg/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SWTES0707-34]&nbsp;<a href="http://jira.softacad.bg/browse/SWTES0707-34">[TG-5] [Emilia] The message for wrong password and username  is incorrect .</a>
+            <span class="subText">
+               Created: 02/Aug/20                   &nbsp;Updated: 06/Aug/20
+
+                                                    &nbsp;Resolved: 04/Aug/20
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Resolved</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="http://jira.softacad.bg/secure/BrowseProject.jspa?id=11900">SW_Test_07_07_2020	</a></td>
+    </tr>
+
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                                        <a title="1.0.1 - Initial version"
+                href="http://jira.softacad.bg/issues/?jql=project%3D11900%20AND%20%22affectedVersion%22%3D11400%20ORDER%20BY%20priority%20ASC"
+            >1.0.1</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                                        <a title="1.0.2 - Bugs linked to relevant stories"
+                href="http://jira.softacad.bg/issues/?jql=project%3D11900%20AND%20%22fixVersion%22%3D11401%20ORDER%20BY%20priority%20ASC"
+            >1.0.2</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="epalagacheva" id="word_reporter_epalagacheva" href="http://jira.softacad.bg/secure/ViewProfile.jspa?name=epalagacheva">Emilia Palagacheva</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="epalagacheva" id="word_assignee_epalagacheva" href="http://jira.softacad.bg/secure/ViewProfile.jspa?name=epalagacheva">Emilia Palagacheva</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-17542-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="http://jira.softacad.bg/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Selection_002.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                blocks
+            </td>
+            <td>
+                <a href="http://jira.softacad.bg/browse/SWTES0707-1">
+                     SWTES0707-1                 </a>
+            </td>
+            <td>
+                As a user, I want to be able to login...
+            </td>
+            <td>
+                In Progress
+            </td>
+        </tr>
+                                                                    </table>
+            </td>
+        </tr>
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>When the user is on the login page and does not input anything in the fields for username/e-mail and password, just clicks on the field for username/password and then clicks somewhere else outside the field. On the bottom the field its shown message is says the user  have to input a valid username/ password. The message for the password is incorrect : <font color="#ff0000">Please input your Passward! <font color="#172b4d"></font>also the message for the email. </font><font color=""></font></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-14331"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="gkerkeniakov" id="word_commented_gkerkeniakov" href="http://jira.softacad.bg/secure/ViewProfile.jspa?name=gkerkeniakov">Gencho Kerkeniakov</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">03/Aug/20</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-14331"><td bgcolor="#ffffff">
+            <p>Hi <a href="http://jira.softacad.bg/secure/ViewProfile.jspa?name=epalagacheva" class="user-hover" rel="epalagacheva">Emilia Palagacheva</a>,</p>
+
+<p>Thank you for catching this bug!</p>
+
+<p>The typo in "Passward" -&gt; "Password" will be fixed in version 1.0.2.</p>
+
+<p>Please execute your test case again when we deploy the next version to production and let me know if bug is fixed here!</p>
+
+<p> </p>
+
+<p>P.S :</p>
+
+<p>your name is spelled wrong in the ticket's summary : <span class="error">&#91;TG-5&#93;</span> <span class="error">&#91;*Emlia*&#93;</span> The message for wrong password and username is incorrect .</p>
+
+<p>Please link your test case to this ticket (Under traceability) and please include short steps with actual/expected result in ticket description (something like Angel's ticket : <a href="http://jira.softacad.bg/browse/SWTES0707-23" class="external-link" rel="nofollow">http://jira.softacad.bg/browse/SWTES0707-23</a> )</p>
+
+<p> </p>
+        </td></tr>
+                <tr id="comment-header-14344"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="st.ashkenazy" id="word_commented_st.ashkenazy" href="http://jira.softacad.bg/secure/ViewProfile.jspa?name=st.ashkenazy">Stephan Ashkenazy</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">03/Aug/20</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-14344"><td bgcolor="#ffffff">
+            <p>And one comment from me Emi - please don't forget to select the correct value for the "Affects version" attribute. This gives us an indication in which version the problem was discovered.</p>
+        </td></tr>
+                <tr id="comment-header-14369"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="st.ashkenazy" id="word_commented_st.ashkenazy" href="http://jira.softacad.bg/secure/ViewProfile.jspa?name=st.ashkenazy">Stephan Ashkenazy</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">04/Aug/20</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-14369"><td bgcolor="#ffffff">
+            <p>Please re-test.</p>
+        </td></tr>
+                <tr id="comment-header-14548"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="epalagacheva" id="word_commented_epalagacheva" href="http://jira.softacad.bg/secure/ViewProfile.jspa?name=epalagacheva">Emilia Palagacheva</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">06/Aug/20</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-14548"><td bgcolor="#ffffff">
+            <p>Hello, </p>
+
+<p>I have re-tested and the problem is solved.</p>
+        </td></tr>
+            </table>
+Generated at Tue Oct 20 20:30:24 EEST 2020 by Emilia Palagacheva using Jira 8.5.7#805007-sha1:ee371e2031ce09ee3d2791725bfa635dcce61089.
+
+</body>
+</html>
